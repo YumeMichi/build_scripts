@@ -1,5 +1,10 @@
 #!/bin/bash
 
+green='\033[01;32m'
+restore='\033[0m'
+
+clear
+
 DATE_START=$(date +"%s")
 
 . build/envsetup.sh
